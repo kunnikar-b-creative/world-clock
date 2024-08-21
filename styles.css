@@ -1,27 +1,87 @@
 body {
-      background: linear-gradient(
-        90deg,
-        rgb(252, 115, 156) 0%,
-        rgb(139, 102, 241) 100%
-      );
-      color: #fff;
-    }
-
-    div {
-  margin: 0 auto;
-  max-width: 800px;
-  font-size: 24px;
-  margin-top: 5%;
+  background: linear-gradient(
+    90deg,
+    rgb(252, 115, 156) 0%,
+    rgb(139, 102, 241) 100%
+  );
+  color: blueviolet;
 }
 
-    a {
-      color: blue;
-    }
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+}
 
-    footer {
-      margin-top: 30%;
-      padding: 30px 0 0 0;
-      text-align: center;
-      font-size: 24px;
-      color: #f9f7fe;
-    }
+h2 {
+  text-align: center;
+  margin: 0 0 5px;
+  font-size: 24px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+a {
+  color: blue;
+}
+
+footer {
+  margin-top: 5%;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+select {
+  color: blue;
+  border: 1px solid violet;
+}
